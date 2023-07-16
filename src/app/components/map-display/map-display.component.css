@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: column;
     margin: 40px;
-    min-width: 65%;
+    margin-top: 120px;
+    max-width: 65%;
 
 }
 
@@ -15,5 +16,10 @@
     display: flex;
     flex-direction: column;
     margin: 40px;
-    min-width: 35%
+    min-width: 35%;
+    align-items: flex-start;
 }
+
+.max-width: 65%; /* Ensure the right column doesn't exceed 65% of the screen width */
+align-items: flex-start; /* Align items at the start of the column */
+margin-top: 40px; /* Add 40px margin at the top */

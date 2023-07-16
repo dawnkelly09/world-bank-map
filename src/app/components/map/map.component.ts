@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-map',
@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent {
+  @Output() clickCountry = new EventEmitter()
+
+  onSelectCountry() {
+    console.log("you picked a country")
+    this.clickCountry.emit()
+  }
+
 
 }

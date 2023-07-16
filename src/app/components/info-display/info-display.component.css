@@ -1,3 +1,7 @@
+h2 {
+    
+}
+
 li {
     list-style-type: none;
     margin-bottom: 8px;
@@ -7,6 +11,7 @@ li {
 .card {
     border: 1px solid black;
     border-radius: 12px;
+    padding: 6px;
 }
 
 
