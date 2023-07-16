@@ -1,0 +1,16 @@
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+
+.country-info {
+    display: flex;
+    flex-direction: column;
+}
