@@ -21,9 +21,11 @@ export class MapDisplayComponent {
   }
 
   displayInfo() {
-
-    console.log("here is some country info")
+    console.log("if I can get info here, you'll see it")
+    
   }
 }
+
+
 
 

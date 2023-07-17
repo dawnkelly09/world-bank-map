@@ -10,12 +10,16 @@ export class ApiService {
 
   constructor(private http:HttpClient) { }
 
-  getCountryInfo(id: string): Observable<any> {
+  
+
+  getCountryInfo(id: string) {
     const requestUrl = `${this.apiUrl}/${id}?format=json`
     return this.http.get(requestUrl);
+
     
   }
 }
+
 
 /*Need to create two functions
 1) one method that accepts a country name as an input parameter that returns additional information gathered from the API for the selected country
