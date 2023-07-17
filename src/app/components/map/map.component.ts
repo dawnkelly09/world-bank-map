@@ -9,7 +9,6 @@ export class MapComponent {
   @Output() clickCountry = new EventEmitter()
 
   onSelectCountry() {
-    console.log("you picked a country")
     this.clickCountry.emit()
   }
 

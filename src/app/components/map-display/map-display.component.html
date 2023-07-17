@@ -1,9 +1,22 @@
 <div class="display-container">
+    
     <div class="left-col">
+        <h3>Click to select a country</h3>
         <app-map></app-map>
         
     </div>
     <div class="right-col">
-        <app-info-display></app-info-display>
+        <div class="card">
+            <h2>Country Information</h2>
+            <div class="country-info">
+                <ul>
+                    <li><span>Country Name: </span>{{ name }}</li>
+                    <li><span>Capital City: </span>{{ city }}</li>
+                    <li><span>Country Region: </span>{{ region }}</li>
+                    <li><span>Income Level: </span>{{ income }}</li>
+                    <li><span>Longitude: </span>{{ longitude }}</li>
+                    <li><span>Latitude: </span>{{ latitude }}</li>
+                </ul>
+            </div>
     </div>
 </div>
