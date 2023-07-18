@@ -1,0 +1,46 @@
+.display-container {
+    display: flex;
+    flex-direction: row;   
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-top: 120px;
+    max-width: 45%;
+    
+
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    min-width: 45%;
+    align-items: flex-start;
+}
+
+h3 {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(211, 211, 211, 0.80); 
+    padding: 6px;
+    min-width: 360px
+}
+
+
+.country-info {
+    display: flex;
+    flex-direction: column;
+}
+

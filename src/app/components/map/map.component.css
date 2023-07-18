@@ -1,0 +1,12 @@
+path {
+    fill: lightslategray
+}
+
+path:hover {
+    fill: navy;
+}
+
+path:active {
+    fill: lightskyblue;
+}
+
