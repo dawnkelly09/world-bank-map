@@ -5,12 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
-
 import { MapComponent } from './components/map/map.component';
 import { MapDisplayComponent } from './components/map-display/map-display.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+
+import { ApiService } from './services/api.service';
 
 
 @NgModule({
@@ -30,7 +31,9 @@ import { FooterComponent } from './components/footer/footer.component';
     FontAwesomeModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
